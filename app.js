@@ -47,3 +47,12 @@ app.post('/send', (req, res) => {
       rejectUnauthorized:false
     }
   });
+  // setup email data with unicode symbols
+  let mailOptions = {
+    from: '"Nodemailer Contact" <your@email.com>', // sender address
+    to: 'RECEIVEREMAILS', // list of receivers
+    subject: 'Node Contact Request', // Subject line
+    text: 'Hello world?', // plain text body
+    html: output // html body
+};
+
