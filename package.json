@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/mohitdhimanskt/nodejs.app.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Brad Traversy",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mohitdhimanskt/nodejs.app/issues"
   },
