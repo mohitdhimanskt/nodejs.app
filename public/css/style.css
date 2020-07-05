@@ -47,3 +47,14 @@ ul{
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
 }
+.contact form label {
+    display: block;
+
+}
+.contact form p{
+    margin: 0;
+}
+.contact form .full{
+    grid-column: 1 / 3;
+
+}
