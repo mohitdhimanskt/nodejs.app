@@ -41,3 +41,9 @@ ul{
 .contact{
     background: #f9feff;
 }
+/* FORM STYLES */
+.contact form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
