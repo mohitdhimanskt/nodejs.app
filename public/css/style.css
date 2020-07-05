@@ -17,4 +17,10 @@ body{
 ul{
     list-style: none;
     padding: 0;
+}   
+.brand{
+    text-align: center;
 }
+.brand span{
+    color: #fff;
+    }
